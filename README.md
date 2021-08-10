@@ -1,2 +1,60 @@
 # clashbot
+Clashbot for Discord
+
 Discord bot for managing LoL Clash Tournament signups
+
+## Env Variables
+
+Note that to use spongebot you *must* have a .env file with the security token in it, of the format:
+
+```
+TOKEN=<token>
+```
+
+The token should only be accessible to me, so good luck with that.
+
+## Requirements/Packages:
+
+Python3
+
+Packages:
+- discord
+- python-dotenv
+
+Use the following commands to install:
+
+installs pipx
+```bash
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+```
+
+installs virtualenv via pipx
+```bash
+sudo -u <username> pipx install virtualenv
+sudo apt install python3.8-venv
+pipx install virtualenv
+```
+
+initiates the virtualenv:
+
+```bash
+source venv/bin/activate
+```
+
+installs python packages to the virtualenv:
+```bash
+sudo apt install python3 python3-pip
+python3 -m pip install -U discord.py python-dotenv
+```
+
+## Running the bot:
+
+```bash
+python3 main.py
+```
+
+## Configuring the bot in Discord
+
+TODO
+
