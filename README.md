@@ -36,6 +36,11 @@ sudo apt install python3.8-venv
 pipx install virtualenv
 ```
 
+Creates a new virtualenv in the workspace:
+```bash
+virtualenv venv
+```
+
 initiates the virtualenv:
 
 ```bash
